@@ -1,0 +1,47 @@
+header {
+    padding: 1em 1em 0;
+}
+
+.logo {
+    padding: 0 0 0.2em;
+}
+
+.logo a {
+    display: block;
+}
+
+.logo a img {
+    margin: 0 4px 0 0;
+    width: 28px;
+    vertical-align: middle;
+}
+
+.logo a span {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.searchBox {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.searchBox input {
+    padding: 0.4em 0.5em;
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.searchBox input:focus {
+    border: 1px solid #222;
+    outline: none;
+}
+
+.searchBox button {
+    width: 65px;
+    border: 1px solid #d8d8d8;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
