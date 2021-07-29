@@ -16,6 +16,7 @@
 .imgBox {
     padding: 0 1em 0 0;
     width: 50%;
+    height: 200px;
     box-sizing: border-box;
 }
 
@@ -50,5 +51,11 @@
 
     .videoItem a {
         height: auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .imgBox {
+        height: 100px;
     }
 }
